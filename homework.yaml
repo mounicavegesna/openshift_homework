@@ -62,7 +62,7 @@
 - name: Post installation configuration
   hosts: localhost
   tasks:
-    - name: Verify logged in User is system:dmin
+    - name: Verify logged in User is system:admin
       shell: oc whoami | grep system:admin
 
 - name: Admin User admin as Cluster Admin
