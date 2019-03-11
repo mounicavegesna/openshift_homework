@@ -2,8 +2,8 @@
 
 #Create Smoke Test Project
 oc login -u system:admin
+oc login -u user1 -p r3dh4t1!
 oc new-project smoke-test
-
 #Add the NodeJS Mongo Application
 oc new-app nodejs-mongo-persistent
 #Check the status of the pods
