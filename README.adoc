@@ -7,7 +7,7 @@ a fully automated deployment of OpenShift.
 Please perform the following:
 
 * create a new environment : Order the OpenShift HA Homework 8 Lab and login to VM
-* clone a repo - https://github.com/sitaramaprasad-erothu/openshift_homework.git
+* clone a repo - https://github.com/mounicavegesna/openshift_homework.git
 * Log location- Enable the log location at /etc/ansible/ansible.cfg
 * execute the command - ansible-playbook homework.yaml
 * examine the output through log files at location set in ansible.cfg
